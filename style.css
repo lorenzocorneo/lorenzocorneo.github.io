@@ -16,3 +16,7 @@ a, h2 {
     position: relative;
     right: 5px;
 }
+
+p.abstract {
+    font-size: 10pt;
+}

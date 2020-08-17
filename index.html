@@ -79,69 +79,117 @@
                 <li><span class="fa fa-smile-o list-icon"></span>2020-08-15: Accepted paper at ACM MobiCom 2020! <span class="badge badge-success"> New</span></li>
                 <li><span class="fa fa-smile-o list-icon"></span>2019-09-15: Visiting <a href="https://www.helsinki.fi/en/researchgroups/collaborative-networking" target="_blank">CoNe group @ University of Helsinki</a>!</li>
                 <li><span class="fa fa-smile-o list-icon"></span>2018-11-30: Accepted paper at <a href="https://ieeexplore.ieee.org/document/8737497" target="_blank">IEEE INFOCOM 2019</a>!</li>
-                <!-- <li><span class="fa fa-smile-o list-icon"></span>2018-11-05: Given my first full lecture in distributed systems master level course!</li> -->
-                <!-- <li><span class="fa fa-smile-o list-icon"></span>2018-07-27: Presented paper at TOPIC@ACM PODC 2018 in London Egham!</li> -->
-                <!-- <li><span class="fa fa-smile-o list-icon"></span>2018-06-02: Accepted paper at TOPIC@ACM PODC 2018!</li> -->
               </ul>
             </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+                <div class="col">
+                    <h2><span class="fa fa-book">
+                    Selected publications</span></h2>
+                </div>
+            </div>
+          <div class="row">
+                <div class="col-sm-auto align-self-center">
+                    <img src="img/2019-infocom-arch.png" alt="" width="300px" />
+                </div>
+                <div class="col">
+                  <p><i><a href="papers/2019-infocom.pdf">Age of
+                  Information-Aware Scheduling for Timely and Scalable
+                  Internet of Things Applications</a></i>
+                  </br>
+                  <b>Lorenzo Corneo</b>, Christian Rohner and Per Gunningberg
+                  </br>
+                  IEEE INFOCOM, 2019, Paris, France
+                  </p>
+                  <p class="abstract">
+                    We consider large scale Internet of Things
+                    applications requesting data from physical
+                    devices. We study the problem of timely
+                    dissemination of sensor data towards applications
+                    with freshness requirements by means of a
+                    cache. We aim to minimize direct access to the
+                    possibly battery powered physical devices, yet
+                    improving Age of Information as a data freshness
+                    metric. We propose an Age of Information-aware
+                    scheduling policy for the physical device to push
+                    sensor updates to the caches located in cloud data
+                    centers. Such policy groups application requests
+                    based on freshness thresholds, thereby reduces the
+                    number of requests and threshold misses, and
+                    accounts for delay variation. The policy is
+                    incrementally introduced as we study its behavior
+                    over ideal and more realistic communication links
+                    with delay variation. We numerically evaluate the
+                    proposed policy against a simple yet widely used
+                    periodic schedule. We show that our informed
+                    schedule outperforms the periodic schedule even
+                    under high delay variations.
+                  </p>
+                </div>
+            </div>
+          <div class="row">
+                <div class="col-sm-auto align-self-center">
+                    <img src="img/topic_arch.png" alt="" width="300px" />
+                </div>
+                <div class="col">
+                  <p><i><a href="papers/2018-topic.pdf">Scheduling at the Edge for Assisting Cloud
+                      Real-Time Applications</a></i>
+                  </br>
+                  <b>Lorenzo Corneo</b> and Per Gunningberg
+                  </br>
+                  ACM TOPIC @ PODC, 2018, Egham, London, UK
+                  </p>
+                  <p class="abstract">
+                    We study edge server support for multiple periodic
+                    real-time applications located in different
+                    clouds. The edge communicates both with sensor
+                    devices over wireless sensor networks and with
+                    applications over Internet type networks. The edge
+                    caches sensor data and can respond to multiple
+                    applications with different timing requirements to
+                    the data. The purpose of caching is to reduce the
+                    number of multiple direct accesses to the sensor
+                    since sensor communication is very energy
+                    expensive. However, the data will then age in the
+                    cache and eventually become stale for some
+                    application. A push update method and the concept
+                    of age of information is used to schedule data
+                    updates to the applications. An aging model for
+                    periodic updates is derived. We propose that the
+                    scheduling should take into account periodic
+                    sensor updates, the differences in the periodic
+                    application updates, the aging in the cache and
+                    communication variance. By numerical analysis we
+                    study the number of deadline misses for two
+                    different scheduling policies with respect to
+                    different periods.
+                  </p>
+                </div>
           </div>
         </div>
         <!-- <div class="container"> -->
         <!--     <div class="row"> -->
         <!--         <div class="col"> -->
-        <!--             <h2><span class="fa fa-bell-o"> Thesis and Projects</span></h2> -->
+        <!--             <h2><span class="fa fa-book"> -->
+        <!--             Publications</span></h2> -->
         <!--         </div> -->
-        <!--     </div> -->
-        <!--     <div class="row"> -->
-        <!--       <div class="col"> -->
-        <!--         <div class="alert alert-warning" role="alert"> -->
-        <!--           <p>I am looking for enthusiastic students that want to do thesis (Bachelor or Master) -->
-        <!--           under my supervision. If you are interested, please, do not -->
-        <!--           hesitate and contact me!</p> -->
-        <!--         </div> -->
-        <!--       </div> -->
         <!--     </div> -->
         <!--     <div class="row"> -->
         <!--         <div class="col"> -->
-        <!--             <table class="table table-sm table-hover"> -->
-        <!--                 <thead> -->
-        <!--                     <tr> -->
-        <!--                         <th scope="col">Title</th> -->
-        <!--                         <th scope="col">Type</th> -->
-        <!--                         <th scope="col">Status</th> -->
-        <!--                     </tr> -->
-        <!--                 </thead> -->
-        <!--                 <tbody> -->
-        <!--                     <tr> -->
-        <!--                         <td>Edge Duty-cycling Strategies for Energy Efficient Sensor Networks</td> -->
-        <!--                         <td>Master Thesis</td> -->
-        <!--                         <td>Open</td> -->
-        <!--                     </tr> -->
-        <!--                 </tbody> -->
-        <!--             </table> -->
+        <!--           <ul style="list-style: none;"> -->
+        <!--             <li><span class="fa fa-pencil-square-o list-icon"></span><i>Age -->
+        <!--             of Information-aware Scheduling for Timely and Scalable -->
+        <!--             Internet of Things Applications</i>. <b>L. Corneo</b>, C. Rohner and P. Gunningberg. IEEE INFOCOM 2019, April 2019, Paris, France.</li> -->
+        <!--             <li><span class="fa fa-pencil-square-o list-icon"></span><i>Scheduling at the Edge for Assisting Cloud Real-Time Applications</i>. <b>L. Corneo</b> and P. Gunningberg. Theory and Practice for Integrated Cloud, Fog and Edge Computing Paradigms - TOPIC@ACM PODC 2018, July 2018, Egham, London, UK.</li> -->
+        <!--             <li><span class="fa fa-pencil-square-o list-icon"></span><i>Service Level Agreements for Safe and Configurable Production Environments</i>. M. Ashjaei, K. Clegg, <b>L. Corneo</b>, R. Hawkins, O. Jaradat, V. Gulisano, Y. Nikolakopoulos. IEEE EFTA, September 2018, Turin, Italy.</li> -->
+        <!--             <li><span class="fa fa-pencil-square-o list-icon"></span><i>Environmental Control at the Edge</i>. E. Rick, F. Ragnarsson, T. Holmberg, E. Fröjd, V. Rivas, A. Varshney , <b>L. Corneo</b>, C. Rohner, T. Voigt, P. Gunningberg. 14th Swedish National Computer Networking Workshop, 2018, Karlskrona, Sweden.</li> -->
+        <!--             <li><span class="fa fa-pencil-square-o list-icon"></span><i>Towards Future Factories in the Cloud</i>. <b>L.Corneo</b> and P. Gunningberg. 14th Swedish National Computer Networking Workshop, 2018, Karlskrona, Sweden.</li> -->
+        <!--             </ul> -->
         <!--         </div> -->
         <!--     </div> -->
         <!-- </div> -->
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2><span class="fa fa-book"> Publications</span></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                  <ul style="list-style: none;">
-                    <li><span class="fa fa-pencil-square-o list-icon"></span><i>Age
-                    of Information-aware Scheduling for Timely and Scalable
-                    Internet of Things Applications</i>. <b>L. Corneo</b>, C. Rohner and P. Gunningberg. IEEE INFOCOM 2019, April 2019, Paris, France.</li>
-                    <li><span class="fa fa-pencil-square-o list-icon"></span><i>Scheduling at the Edge for Assisting Cloud Real-Time Applications</i>. <b>L. Corneo</b> and P. Gunningberg. Theory and Practice for Integrated Cloud, Fog and Edge Computing Paradigms - TOPIC@ACM PODC 2018, July 2018, Egham, London, UK.</li>
-                    <li><span class="fa fa-pencil-square-o list-icon"></span><i>Service Level Agreements for Safe and Configurable Production Environments</i>. M. Ashjaei, K. Clegg, <b>L. Corneo</b>, R. Hawkins, O. Jaradat, V. Gulisano, Y. Nikolakopoulos. IEEE EFTA, September 2018, Turin, Italy.</li>
-                    <li><span class="fa fa-pencil-square-o list-icon"></span><i>Environmental Control at the Edge</i>. E. Rick, F. Ragnarsson, T. Holmberg, E. Fröjd, V. Rivas, A. Varshney , <b>L. Corneo</b>, C. Rohner, T. Voigt, P. Gunningberg. 14th Swedish National Computer Networking Workshop, 2018, Karlskrona, Sweden.</li>
-                    <li><span class="fa fa-pencil-square-o list-icon"></span><i>Towards Future Factories in the Cloud</i>. <b>L.Corneo</b> and P. Gunningberg. 14th Swedish National Computer Networking Workshop, 2018, Karlskrona, Sweden.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="container">
             <div class="row">
               <div class="col">
